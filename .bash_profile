@@ -53,17 +53,6 @@ alias gl='git log | tig'
 alias gg='git log --graph --oneline --all'
 alias gda='git branch | grep -v "master" | xargs git branch -D'
 
-# Linkedin
-alias jns='just npm start'
-alias pr='play run'
-alias testExt='just ember test -app=extended -path=dist --filter=messaging'
-alias testCore='just ember test -app=core -path=dist --filter=messaging'
-alias fuckup='rm -rf ~/.just && rm -rf ~/.bpr && rm -rf tmp && just init --clean && just init && just serve'
-alias cleanServe='just init --clean && just init && just serve'
-alias gr='git review create --owners-only --no-prompt'
-alias qse="APP=extended just serve --disable-live-reload"
-alias qsc="APP=core just serve --disable-live-reload"
-
 #other stuff
 alias dka="docker kill $(docker ps -q)"
 

@@ -1,15 +1,5 @@
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
-export STORK_GIT_CAMPAIGNS_DIR=/Users/$USER/flock-templates_trunk
-
-if [ -x /usr/bin/keychain ] ; then
-    MYNAME=`/usr/bin/whoami`
-      if [ -f ~/.ssh/lsli_at_linkedin.com_ssh_key ] ; then
-                /usr/bin/keychain ~/.ssh/lsli_at_linkedin.com_ssh_key
-                              . ~/.keychain/`hostname`-sh
-      fi
-fi
-
 
 # misc aliases
 alias less='less -r'
